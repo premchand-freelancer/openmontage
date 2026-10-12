@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "engine": {
+    "repository": "https://github.com/calesthio/OpenMontage.git",
+    "revision": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+    "directory": "/workspace/OpenMontage",
+    "python": "/workspace/openmontage-runtime/bin/python",
+    "browser": "/usr/bin/chromium"
+  },
+  "defaults": {
+    "duration_seconds": 15,
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "audio": "none",
+    "paid_generation_budget_usd": 0
+  },
+  "delivery": {
+    "repository": "premchand-freelancer/openmontage",
+    "branch": "main",
+    "directory": "videos",
+    "maximum_file_bytes": 95000000,
+    "verify_download_sha256": true,
+    "final_response": "download_link_only"
+  },
+  "preferences": {
+    "exclude_websites_unless_explicitly_requested": ["premchandv.vercel.app"],
+    "premchand_website_ad": {
+      "developer_name": "Premchand V",
+      "positioning": "AI-assisted website developer",
+      "cta": "DM 'WEBSITE' TO GET STARTED.",
+      "website_label": "Demo Projects",
+      "websites": [
+        {"name": "Aetheria Hospital", "url": "https://aetheriahospital.vercel.app/"},
+        {"name": "Auren Clinic", "url": "https://aurenclinic.vercel.app/"},
+        {"name": "Universal Computer Institute", "url": "https://uci.premchand4528.chatgpt.site/"},
+        {"name": "B.K. Heart Hospital", "url": "https://bk-heart-hospital-varanasi.premchand4528.chatgpt.site/"}
+      ]
+    }
+  }
+}
